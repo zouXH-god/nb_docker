@@ -17,9 +17,12 @@ docker run -id -p 2222:22 --name nb_docker shiran2488/nb_docker:1.0
 ```
 
 ## 4、使用ssh连接镜像
-ip即为此服务器的ip，
+```
+ip：服务器的ip
+port：2222（即构建docker时映射向22端口的宿主机端口号）
 账户：root
 密码：nb_passwd
+```
 **注：第一次连接后请务必重新修改密码**
 
 ## 密码修改方法
