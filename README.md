@@ -8,7 +8,7 @@
 
 ## 2、拉取镜像
 ```
-docker push shiran2488/nb_docker:1.0
+docker pull shiran2488/nb_docker:1.0
 ```
 
 ## 3、运行镜像
