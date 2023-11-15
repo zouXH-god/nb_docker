@@ -13,7 +13,7 @@ docker pull shiran2488/nb_docker:1.0
 
 ## 3、运行镜像
 ```
-docker run -id -p 2222:22 --name nb_docker shiran2488/nb_docker:1.0
+docker run -id -p 2222:22 -p 8080:8080 --name nb_docker shiran2488/nb_docker:1.0
 ```
 
 ## 4、使用ssh连接镜像
